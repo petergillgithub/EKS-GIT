@@ -13,6 +13,5 @@ terraform {
     key    = "eks-demo/dev/terraform.tfstate"
     region = "eu-west-2"
     dynamodb_table = "terraform-state-locking"
-    profile = "terraform"
   }
 }
